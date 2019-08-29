@@ -1,0 +1,3020 @@
+{
+	
+	"boat-details":{
+		"data":[
+			  {
+            "type": "cabins",
+            "id": "33",
+            "attributes": {
+                "identifier": "Cabin 10 - upper deck",
+                "description": "This is a demo cabin. \n\nEach cabin has a unique identifier that can be a name or number or combination. \n\nYou can put a cabin description here\n\nCabins can be set up with variations of occupancy.",
+                "liveaboardId": 10,
+                "facilities": [
+                    "air_con",
+                    "ac_controls",
+                    "bathrobes",
+                    "bathroom_amenities",
+                    "shared_bathroom",
+                    "cold_shower",
+                    "hot_shower",
+                    "en_suite",
+                    "exterior_windows",
+                    "fan",
+                    "mini_bar",
+                    "hair_dryer",
+                    "mains_outlet",
+                    "fridge",
+                    "safety_box",
+                    "tea_coffee",
+                    "towels",
+                    "wardrobe",
+                    "mood_lighting",
+                    "bag_storage"
+                ],
+                "entertainment": [
+                    "tv",
+                    "tv_3d",
+                    "satellite_tv",
+                    "av_system",
+                    "blue_ray_player",
+                    "cd_player",
+                    "dvd_player",
+                    "video_player",
+                    "digital_projector",
+                    "ipod_facilities",
+                    "radio"
+                ],
+                "variations": [
+                    {
+                        "id": "bbdb3052-793c-41a3-9aa2-2aef67ee95b2",
+                        "order": 1,
+                        "shared": false,
+                        "entries": [
+                            {
+                                "id": "5d1bff93-c18e-4b94-81dd-93c2338a1ae8",
+                                "type": "king",
+                                "people": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5a7404ba-e788-4ac8-be2e-f32a47327008",
+                        "order": 2,
+                        "shared": false,
+                        "entries": [
+                            {
+                                "id": "429a9ab9-cb5b-4e0c-9d95-921c889c633d",
+                                "type": "king",
+                                "people": 1
+                            }
+                        ]
+                    }
+                ],
+                "standard": "deluxe",
+                "order": 10,
+                "status": "published",
+                "publishedAt": "2019-07-08 18:40:52",
+                "createdAt": "2019-07-08 16:39:37",
+                "updatedAt": "2019-07-08 18:40:52",
+                "deletedAt": null
+            },
+            "links": {
+                "self": "https://api.scubaclick.com/demo/cabins/33"
+            },
+            "relationships": {
+                "media": {
+                    "links": {
+                        "self": "https://api.scubaclick.com/demo/cabins/33/relationships/media",
+                        "related": "https://api.scubaclick.com/demo/cabins/33/media"
+                    },
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "cabins",
+            "id": "32",
+            "attributes": {
+                "identifier": "Cabin 9 - upper deck",
+                "description": "This is a demo cabin. \n\nEach cabin has a unique identifier that can be a name or number or combination. \n\nYou can put a cabin description here\n\nCabins can be set up with variations of occupancy.",
+                "liveaboardId": 10,
+                "facilities": [
+                    "air_con",
+                    "ac_controls",
+                    "bathrobes",
+                    "bathroom_amenities",
+                    "shared_bathroom",
+                    "cold_shower",
+                    "hot_shower",
+                    "en_suite",
+                    "exterior_windows",
+                    "fan",
+                    "mini_bar",
+                    "hair_dryer",
+                    "mains_outlet",
+                    "fridge",
+                    "safety_box",
+                    "tea_coffee",
+                    "towels",
+                    "wardrobe",
+                    "mood_lighting",
+                    "bag_storage"
+                ],
+                "entertainment": [
+                    "tv",
+                    "tv_3d",
+                    "satellite_tv",
+                    "av_system",
+                    "blue_ray_player",
+                    "cd_player",
+                    "dvd_player",
+                    "video_player",
+                    "digital_projector",
+                    "ipod_facilities",
+                    "radio"
+                ],
+                "variations": [
+                    {
+                        "id": "361bc947-fa6f-432f-8270-8a6bf69c4b34",
+                        "order": 1,
+                        "shared": false,
+                        "entries": [
+                            {
+                                "id": "d4f741f9-2662-43f4-8e5f-fb88c6a06820",
+                                "type": "king",
+                                "people": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9980df0b-07eb-4706-bee5-fc532de9b685",
+                        "order": 2,
+                        "shared": false,
+                        "entries": [
+                            {
+                                "id": "f50e035f-fa54-405b-9082-907b1206e2f5",
+                                "type": "king",
+                                "people": 1
+                            }
+                        ]
+                    }
+                ],
+                "standard": "deluxe",
+                "order": 9,
+                "status": "published",
+                "publishedAt": "2019-07-08 18:40:52",
+                "createdAt": "2019-07-08 16:39:20",
+                "updatedAt": "2019-07-08 18:40:52",
+                "deletedAt": null
+            },
+            "links": {
+                "self": "https://api.scubaclick.com/demo/cabins/32"
+            },
+            "relationships": {
+                "media": {
+                    "links": {
+                        "self": "https://api.scubaclick.com/demo/cabins/32/relationships/media",
+                        "related": "https://api.scubaclick.com/demo/cabins/32/media"
+                    },
+                    "data": []
+                }
+            }
+        },
+
+		]
+	},
+
+	"get-trips":{
+		"data":[
+			{
+            "type": "trips",
+            "id": "544",
+            "attributes": {
+                "identifier": "DM1-20-12-22",
+                "slug": "komodo-10-copy-2022-12-20-2022-12-28",
+                "startDate": "2022-12-20 12:05:00",
+                "endDate": "2022-12-28 11:55:00",
+                "type": "recreational",
+                "itineraryId": 14,
+                "liveaboardId": 10,
+                "charterSetting": "mixed",
+                "charterPrice": 3000000,
+                "isFull": false,
+                "allowNonDivers": false,
+                "fees": [
+                    {
+                        "id": "cf5fdcfa-a08a-41e7-a9df-d963653520e8",
+                        "amount": 15000,
+                        "description": "Port & Park Fees"
+                    }
+                ],
+                "prices": [
+                    {
+                        "id": "71ecb273-0e96-43c8-86eb-679bad2b602a",
+                        "cabin": 24,
+                        "entry": "171d2d4e-964b-41ca-869d-e91d4a07ce0b",
+                        "amount": 242000,
+                        "variation": "1f286a36-f9ba-4ecf-97b8-dc452311d999"
+                    },
+                    {
+                        "id": "014fed3d-be13-4bf9-993a-e9624c7f1d47",
+                        "cabin": 24,
+                        "entry": "e2d6e8db-5b2f-4351-bd82-eb28a40462f7",
+                        "amount": 242000,
+                        "variation": "1f286a36-f9ba-4ecf-97b8-dc452311d999"
+                    },
+                    {
+                        "id": "055afe69-d1b9-4363-9001-beec7bcfd3c0",
+                        "cabin": 24,
+                        "entry": "09f259b5-bb2a-44ef-b3af-e7f86b244e59",
+                        "amount": 435600,
+                        "variation": "f4a9de88-cdef-4d85-899a-e7972e4877ba"
+                    },
+                    {
+                        "id": "75a41845-30bf-43a1-9977-76bec541b618",
+                        "cabin": 26,
+                        "entry": "c53015e1-969f-413f-b17d-1ba19a15b16d",
+                        "amount": 242000,
+                        "variation": "efcd4295-7460-474c-9cdb-09477d068e05"
+                    },
+                    {
+                        "id": "1f61af1c-c893-43c7-9c70-ba9cd7303b78",
+                        "cabin": 26,
+                        "entry": "aaadc8d7-e960-4e5d-829a-dd5f99dc8cfa",
+                        "amount": 242000,
+                        "variation": "efcd4295-7460-474c-9cdb-09477d068e05"
+                    },
+                    {
+                        "id": "399edd55-7913-4e56-ab59-60a5177a08cf",
+                        "cabin": 26,
+                        "entry": "f74aefc0-b551-4d0c-b281-f94b50aa3893",
+                        "amount": 435600,
+                        "variation": "26f346b7-8f2c-45c6-aa76-dee0a8560942"
+                    },
+                    {
+                        "id": "00bbb943-a01e-4e62-b70c-e4880d68f7b4",
+                        "cabin": 25,
+                        "entry": "bd7d6322-c142-4188-8d8a-c3c161f6368b",
+                        "amount": 242000,
+                        "variation": "81d1632e-2e7a-491b-b33d-5d546ece5be4"
+                    },
+                    {
+                        "id": "4bd437c3-fad6-4e34-aac6-974900b7515e",
+                        "cabin": 25,
+                        "entry": "050b6846-5885-4e97-b240-cb83e9040c27",
+                        "amount": 242000,
+                        "variation": "81d1632e-2e7a-491b-b33d-5d546ece5be4"
+                    },
+                    {
+                        "id": "b1d6b57a-7513-4211-ae15-6ed2af416000",
+                        "cabin": 25,
+                        "entry": "d503731f-fb48-4977-bc49-7e1ed8859764",
+                        "amount": 435600,
+                        "variation": "a1a855ef-6f8a-486a-9e20-340530def264"
+                    },
+                    {
+                        "id": "6806c120-a009-4fcd-a191-7112c730cdf1",
+                        "cabin": 28,
+                        "entry": "c8bf4d43-9c3d-4c1c-b2d4-bd2ffe82a24c",
+                        "amount": 242000,
+                        "variation": "a476cccc-cc72-4817-96c4-2b81a3bac208"
+                    },
+                    {
+                        "id": "94680add-ff1c-4de4-8f21-faade5ef4a33",
+                        "cabin": 28,
+                        "entry": "81aad8dd-684c-4f1f-a6fc-1bfad4152d93",
+                        "amount": 242000,
+                        "variation": "a476cccc-cc72-4817-96c4-2b81a3bac208"
+                    },
+                    {
+                        "id": "d5b073c1-f881-4324-99f5-838e0065d8da",
+                        "cabin": 28,
+                        "entry": "d8e9ffa8-13f2-4ea4-a93a-4b046a113004",
+                        "amount": 435600,
+                        "variation": "dc6155d2-cf42-4b17-b1ab-45bdbbbaa74a"
+                    },
+                    {
+                        "id": "50fcaa11-7ba4-4070-8fb8-c540da6c7fd8",
+                        "cabin": 29,
+                        "entry": "761e1662-2462-4e47-9b8b-431facb3c53a",
+                        "amount": 242000,
+                        "variation": "4e6eab58-a502-4319-ae1b-a2cbf5ea81c5"
+                    },
+                    {
+                        "id": "48739207-4bd0-4ee3-86ac-ee6c36b0fb1c",
+                        "cabin": 29,
+                        "entry": "936bb5e0-71b2-4b45-86bb-d6ef158cccda",
+                        "amount": 242000,
+                        "variation": "4e6eab58-a502-4319-ae1b-a2cbf5ea81c5"
+                    },
+                    {
+                        "id": "4976ade7-5b91-470a-b808-ad35262e94bc",
+                        "cabin": 29,
+                        "entry": "0c1a7950-20b8-46a6-b3f8-00f42e2a128c",
+                        "amount": 435600,
+                        "variation": "7d57df89-ed61-4a59-8bc4-89315eb01b4e"
+                    },
+                    {
+                        "id": "98907b26-0a4b-4104-8fb9-c1b5ab509610",
+                        "cabin": 32,
+                        "entry": "d4f741f9-2662-43f4-8e5f-fb88c6a06820",
+                        "amount": 302500,
+                        "variation": "361bc947-fa6f-432f-8270-8a6bf69c4b34"
+                    },
+                    {
+                        "id": "2c8f8589-6e6a-411d-a48d-cba4c8ced8a3",
+                        "cabin": 32,
+                        "entry": "f50e035f-fa54-405b-9082-907b1206e2f5",
+                        "amount": 544500,
+                        "variation": "9980df0b-07eb-4706-bee5-fc532de9b685"
+                    },
+                    {
+                        "id": "54fecd72-d461-4858-acb7-8f52a8da600b",
+                        "cabin": 33,
+                        "entry": "5d1bff93-c18e-4b94-81dd-93c2338a1ae8",
+                        "amount": 302500,
+                        "variation": "bbdb3052-793c-41a3-9aa2-2aef67ee95b2"
+                    },
+                    {
+                        "id": "b26e33f5-2563-44ca-8734-409be59e7325",
+                        "cabin": 33,
+                        "entry": "429a9ab9-cb5b-4e0c-9d95-921c889c633d",
+                        "amount": 544500,
+                        "variation": "5a7404ba-e788-4ac8-be2e-f32a47327008"
+                    },
+                    {
+                        "id": "80e29596-15a4-4dff-b0b9-6016c90d0b8d",
+                        "cabin": 31,
+                        "entry": "b93d1366-9059-4d57-aced-ff08ff0200ef",
+                        "amount": 242000,
+                        "variation": "8e84f270-d052-426c-ae16-4cd68a80472d"
+                    },
+                    {
+                        "id": "515a63c2-3f23-4475-9175-43be80545814",
+                        "cabin": 31,
+                        "entry": "55922a22-a5e0-40e2-a599-fc26d4426928",
+                        "amount": 435600,
+                        "variation": "29af33b0-d658-4cc3-9981-23cfcc4feac0"
+                    },
+                    {
+                        "id": "29e8e614-e4ee-4ab0-b34a-ddb468544ea0",
+                        "cabin": 30,
+                        "entry": "dfe59509-d57d-40fd-8f47-10a38c8cd601",
+                        "amount": 242000,
+                        "variation": "10e01762-154e-42fa-b8c3-1465a89fdd78"
+                    },
+                    {
+                        "id": "f50b3010-86e3-4762-af5f-4aaaf90f0870",
+                        "cabin": 30,
+                        "entry": "cd80710e-39dc-4204-bdb0-15b29cba285a",
+                        "amount": 435600,
+                        "variation": "203cfa2e-29ff-4701-b26b-48b90126ae63"
+                    },
+                    {
+                        "id": "1d437eda-df32-4b6a-86ad-c3baa3163f67",
+                        "cabin": 27,
+                        "entry": "b32d9353-dd62-4046-b5f5-c9d47a8be7fa",
+                        "amount": 242000,
+                        "variation": "26107998-0c4d-4549-bfb6-e5602abf60ff"
+                    },
+                    {
+                        "id": "5e22fb43-88b9-422f-9762-2f467ae1cb0d",
+                        "cabin": 27,
+                        "entry": "e6fe7cf6-f877-4387-8437-e8e399af8689",
+                        "amount": 242000,
+                        "variation": "26107998-0c4d-4549-bfb6-e5602abf60ff"
+                    },
+                    {
+                        "id": "0b636d76-693d-4c26-b114-cd9203530ee3",
+                        "cabin": 27,
+                        "entry": "c47acf92-0ca7-475f-a94f-a325d536415e",
+                        "amount": 435600,
+                        "variation": "a19f9fa6-11da-4b2b-a2c3-419195f271ad"
+                    }
+                ],
+                "status": "published",
+                "seoTitle": null,
+                "seoDescription": null,
+                "publishedAt": "2019-07-10 10:53:23",
+                "cancelledAt": null,
+                "createdAt": "2019-07-10 10:53:04",
+                "updatedAt": "2019-07-10 10:53:23",
+                "deletedAt": null
+            },
+            "links": {
+                "self": "https://api.scubaclick.com/demo/trips/544"
+            },
+            "relationships": {
+                "liveaboard": {
+                    "links": {
+                        "self": "https://api.scubaclick.com/demo/trips/544/relationships/liveaboard",
+                        "related": "https://api.scubaclick.com/demo/trips/544/liveaboard"
+                    },
+                    "data": {
+                        "type": "liveaboards",
+                        "id": "10"
+                    }
+                },
+                "itinerary": {
+                    "links": {
+                        "self": "https://api.scubaclick.com/demo/trips/544/relationships/itinerary",
+                        "related": "https://api.scubaclick.com/demo/trips/544/itinerary"
+                    },
+                    "data": {
+                        "type": "itineraries",
+                        "id": "14"
+                    }
+                }
+            }
+        }
+		]
+		
+	},
+  "base-destinations": {
+  "data": [
+    {
+      "type": "destinations",
+      "id": "26",
+      "attributes": {
+        "title": "Mergui Archipelago",
+        "slug": "mergui-archipelago",
+        "description": "Scattered like pearls on a blue velvet bed sheet are a bunch of 800 islands scattered over the Andaman sea just off the eastern coast of Myanmar. This is Burma's tropical paradise of Mergui Archipelago. The British colonial name of \"Mergui\" still remains as opposed to the Burmese \"Myeik\". Myanmar has got turquoise waters, palm-fringed white sand beaches, amazing dive sites, rich wildlife, mangrove forest, but despite the fact that there are only a few islands in Thailand, comparatively, Mergui Archipelago, is far less famous than its Andaman Sea neighbor, the surin and similan islands.In fact, Myeik Archipelago is one of the world’s best-kept secrets due to the fact that it was only opened to tourism in 1997 and is still under quite a strict regulation.",
+        "zoom": 6,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            98.205217631388,
+            10.916229087856
+          ]
+        },
+        "continent": "as",
+        "ocean": "in",
+        "sea": "and",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": "November/March",
+          "depth": null,
+          "visibility": "thirty_one_to_forty",
+          "diveSites": "sixteen_to_twenty",
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": "twenty_six_to_thirty",
+          "experienceLevel": null
+        },
+        "countryId": 20,
+        "publishedAt": "2018-02-26 14:07:49",
+        "createdAt": "2018-02-26 13:47:36",
+        "updatedAt": "2018-02-26 14:07:49",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/26"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/26/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/26/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "20"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/26/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/26/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "68"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "25",
+      "attributes": {
+        "title": "Andaman Sea",
+        "slug": "andaman-sea",
+        "description": "Andaman Sea on the west, diving opportunities include fringing reefs, deep drop-offs, wrecks, walls, caverns, tunnels, pinnacles or open ocean seamounts.  Dive sites are a rainbow of colours and teeming with marine life. For “big fish” aficionados, whale sharks, manta rays, leopard sharks and other pelagics are a major draw whilst macro-life such as seahorse, frogfish, ghost pipefish and an array of nudibranch and crustaceans can all be seen amongst the reefs.",
+        "zoom": 5,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            95.919451730133,
+            11.194136530446
+          ]
+        },
+        "continent": "as",
+        "ocean": "in",
+        "sea": "and",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": "November/mid-April",
+          "depth": null,
+          "visibility": "thirty_one_to_forty",
+          "diveSites": "seventy_six_to_hundred",
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": "twenty_six_to_thirty",
+          "experienceLevel": null
+        },
+        "countryId": 1,
+        "publishedAt": "2018-02-26 13:38:04",
+        "createdAt": "2018-02-26 13:29:41",
+        "updatedAt": "2018-02-26 13:38:04",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/25"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/25/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/25/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "1"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/25/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/25/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "67"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "24",
+      "attributes": {
+        "title": "Similan Islands",
+        "slug": "similan-islands",
+        "description": "The beautiful Similian Islands are a group of nine islands, and lay claim to being one of the most famous dive destinations in the world.To the north, the Surin Marine National Park consists of five granite islands covered in lush forest with idyllic beaches and beautifully clear water. Immerse yourself in colourful reefs, lush corals, impressive sea fans and an incredible variety of marine life including large pelagics such as manta rays and whale sharks. Gigantic boulders, above and below the water line create awesome underwater scenery and exciting swim throughs. A visit to Richelieu Rock is a must, most famous for sightings of whale sharks and manta rays. This submerged rock is surrounded by a series of underwater pinnacles covered in corals and sea fans and is incredibly rich in marine life, making this a spectacular wall dive.",
+        "zoom": 6,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            97.642347490422,
+            8.657413751764
+          ]
+        },
+        "continent": "as",
+        "ocean": "in",
+        "sea": "and",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": "November/April",
+          "depth": null,
+          "visibility": "thirty_one_to_forty",
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": "twenty_six_to_thirty",
+          "experienceLevel": null
+        },
+        "countryId": 1,
+        "publishedAt": "2018-02-26 13:27:56",
+        "createdAt": "2018-02-26 13:21:33",
+        "updatedAt": "2018-02-26 13:27:56",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/24"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/24/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/24/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "1"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/24/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/24/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "64"
+            },
+            {
+              "type": "media",
+              "id": "66"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "23",
+      "attributes": {
+        "title": "Anamba Island",
+        "slug": "anamba-island",
+        "description": "Anambas Islands, Indonesia is a group of Islands located North East of Bintan, in the South China Sea. This location used to be a base for off-shore oil drilling and natural gas explorations, but is now a famous location with amazing coastal spots, crystal clear water and untouched coral reefs. Diving in Anambas will always guarantee you seeing amazing sea life such as nudibranchs, barracudas, moray eels, turtles and even the occasional whale shark.",
+        "zoom": 5,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            105.66132016535,
+            3.1067930534057
+          ]
+        },
+        "continent": "as",
+        "ocean": "pa",
+        "sea": "got",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": "March/October",
+          "depth": null,
+          "visibility": "twenty_six_to_thirty",
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": "twenty_six_to_thirty",
+          "experienceLevel": null
+        },
+        "countryId": 2,
+        "publishedAt": "2018-02-26 13:16:36",
+        "createdAt": "2018-02-26 13:16:30",
+        "updatedAt": "2018-02-26 13:16:36",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/23"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/23/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/23/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "2"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/23/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/23/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "65"
+            },
+            {
+              "type": "media",
+              "id": "64"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "22",
+      "attributes": {
+        "title": "Pulau Tioman",
+        "slug": "pulau-tioman",
+        "description": "Its waters teem with spectacular marine life and colourful coral gardens. The twin peaks of Gunung Nenek Semukut provide a prominent landmark to this island, reputed to be one of the most beautiful and idyllic in the world. A treasure trove of breathtaking marine attractions, corals, seashells and limpets, thorny sea urchins, colourful seaweeds and anemones, starfish, sharks, rays, large pelagics and a myriad of other aquatic wonders are abundant here. Beyond words, large schools of fish swarm the many wrecked remains of what were once illegal fishing trawlers. Turtles take short glances at passing divers and continue poking their heads into unbroken stretches of coral to feed.",
+        "zoom": 5,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            104.17727370713,
+            2.7862109396858
+          ]
+        },
+        "continent": "as",
+        "ocean": "in",
+        "sea": "jav",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": "MARCH/OCTOBER",
+          "depth": null,
+          "visibility": "sixteen_to_twenty",
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": "twenty_six_to_thirty",
+          "experienceLevel": null
+        },
+        "countryId": 3,
+        "publishedAt": "2018-02-26 12:30:59",
+        "createdAt": "2018-02-26 12:23:13",
+        "updatedAt": "2018-02-26 12:30:59",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/22"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/22/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/22/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "3"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/22/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/22/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "63"
+            },
+            {
+              "type": "media",
+              "id": "62"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "21",
+      "attributes": {
+        "title": "Cocos Island",
+        "slug": "cocos-island",
+        "description": "Located in the Eastern Tropical Pacific, 300 miles southwest of Cabo Blanco, Costa Rica, lies the renowned Cocos Island Marine Park. A rugged yet incredibly verdant island, this World Heritage Site is the spectacularly beautiful crown jewel of Costa Rica's many National Parks. \nCocos Island was formed during a volcanic upheaval about two-and-a-half million years ago. Its landmass is punctuated by four mountain peaks, the highest of which is Cerro Iglesias, at 2,080 feet or 634 meters above the sea.\nThere are only two bays with safe anchorages and sandy beaches: Chatham is located on the northeast side and Wafer Bay is on the northwest. Just off Cocos are a series of smaller basaltic rocks and islets. The largest satellite is Isla Manuelita.\nThanks to the breathtaking marine life in its waters, Cocos Island was named one of the ten best scuba diving spots in the world by PADI (Professional Association of Diving Instructors) and a \"must do\" according to diving experts.",
+        "zoom": 4,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            -90.794676840305,
+            -11.138521434978
+          ]
+        },
+        "continent": "sa",
+        "ocean": "pa",
+        "sea": null,
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": "December/Setember",
+          "depth": null,
+          "visibility": "twenty_one_to_twenty_five",
+          "diveSites": "eleven_to_fifteen",
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": "twenty_six_to_thirty",
+          "experienceLevel": null
+        },
+        "countryId": 11,
+        "publishedAt": "2018-02-26 12:02:38",
+        "createdAt": "2018-02-26 11:44:29",
+        "updatedAt": "2018-02-26 12:02:38",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/21"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/21/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/21/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "11"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/21/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/21/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "57"
+            },
+            {
+              "type": "media",
+              "id": "53"
+            },
+            {
+              "type": "media",
+              "id": "55"
+            },
+            {
+              "type": "media",
+              "id": "56"
+            },
+            {
+              "type": "media",
+              "id": "61"
+            },
+            {
+              "type": "media",
+              "id": "51"
+            },
+            {
+              "type": "media",
+              "id": "52"
+            },
+            {
+              "type": "media",
+              "id": "60"
+            },
+            {
+              "type": "media",
+              "id": "59"
+            },
+            {
+              "type": "media",
+              "id": "58"
+            },
+            {
+              "type": "media",
+              "id": "54"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "20",
+      "attributes": {
+        "title": "Cod Hole, Ribbon Reefs and Osprey Reef",
+        "slug": "cod-hole-ribbon-reefs-and-osprey-reef",
+        "description": "Enjoy the best of the Great Barrier Reef and beyond on this spectacular liveaboard adventure. Highlights include the picturesque coral gardens of the Ribbon Reefs, the Cod Hole and shark encounters in the Coral Sea.",
+        "zoom": 9,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            145.43792724609,
+            -14.671922145998
+          ]
+        },
+        "continent": "oc",
+        "ocean": "pa",
+        "sea": "cor",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 8,
+        "publishedAt": "2018-03-14 13:44:55",
+        "createdAt": "2018-02-14 11:25:44",
+        "updatedAt": "2018-03-14 13:44:55",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/20"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/20/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/20/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "8"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/20/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/20/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "69"
+            },
+            {
+              "type": "media",
+              "id": "70"
+            },
+            {
+              "type": "media",
+              "id": "71"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "19",
+      "attributes": {
+        "title": "Coral Sea",
+        "slug": "coral-sea",
+        "description": "The Coral Sea extends to the east of Australia, encompassing remote coral atolls and an exceptionally healthy marine life.\n\nHome to some of the premier dive sites in Australia; expect exceptional visibility, bountiful fish populations and unique pelagic encounters.\n\nThe remote Osprey Reef is the highlight for many, with plummeting coral walls in gin clear water. Expect a diverse array of colourful corals, up to 60 metres visibility, shark encounters at North Horn, schooling trevally, beaked whales, dolphin, potato cod, huge schools of tuna, turtles and rare sea creatures like the nautilus.\n\nManta rays are seasonal visitors and can be seen Apr-Oct. The water temperature ranges from 22-29C. Expect rain in this region during the summer months (Dec-Feb). The Coral Sea can only be reached by liveaboard.",
+        "zoom": 8,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            145.58020234108,
+            -14.551264361538
+          ]
+        },
+        "continent": "oc",
+        "ocean": "pa",
+        "sea": "cor",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": "Year Round",
+          "depth": null,
+          "visibility": "thirty_one_to_forty",
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": "twenty_one_to_twenty_five",
+          "experienceLevel": "advanced"
+        },
+        "countryId": 8,
+        "publishedAt": "2018-03-14 13:48:36",
+        "createdAt": "2018-02-14 10:54:59",
+        "updatedAt": "2018-03-14 13:48:36",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/19"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/19/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/19/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "8"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/19/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/19/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "71"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "18",
+      "attributes": {
+        "title": "Socorro Islands",
+        "slug": "socorro-islands",
+        "description": "The Socorro Islands, (correctly known as The Revillagigedo Archipelago) is located in the eastern Pacific Ocean approximately 250 nautical miles south of Cabo San Lucas, Mexico – at the tip of the Baja peninsula. These islands have been compared to the Galapagos Islands in Ecuador or Cocos Island in Costa Rica because of the big animal encounters they provide. The Revillagigedos Islands consist of 4 islands – San Benedicto Island, Socorro Island, Roca Partida and Clarion. They are wild, remote and unpredictable.\n\nGiant mantas, humpback whales, playful dolphins, tuna, over 7 shark species plus, on occasion orcas give you the best animal diving on earth!",
+        "zoom": 9,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            -110.96900951117,
+            18.791397676755
+          ]
+        },
+        "continent": "na",
+        "ocean": "pa",
+        "sea": null,
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": "November to May",
+          "depth": "twenty_one_to_thirty",
+          "visibility": "twenty_six_to_thirty",
+          "diveSites": "eleven_to_fifteen",
+          "currents": "medium",
+          "surfaceConditions": null,
+          "waterTemperature": "twenty_one_to_twenty_five",
+          "experienceLevel": "advanced"
+        },
+        "countryId": 18,
+        "publishedAt": "2018-02-12 14:56:07",
+        "createdAt": "2018-02-12 13:01:04",
+        "updatedAt": "2018-02-12 14:56:07",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/18"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/18/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/18/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "18"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/18/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/18/media"
+          },
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "17",
+      "attributes": {
+        "title": "Guadalupe",
+        "slug": "guadalupe",
+        "description": "Located in the Pacific Ocean approximately 165 miles west of Ensenada, Mexico, Guadalupe Island has become the world’s best location for viewing, photography and video of great white sharks. The visibility is often more than 100’ and the water temperature averages between 65F-70F. This is cage diving at its most exciting and, because you will be using surface supplied air (hookah) instead of scuba tanks, this adventure is open to both divers and non-divers alike. These 5 day trips are shorter than other diving excursions so they are perfect for a great mini-vacation.",
+        "zoom": 8,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            -118.30261230469,
+            29.115597687894
+          ]
+        },
+        "continent": "na",
+        "ocean": "pa",
+        "sea": null,
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": "August to October",
+          "depth": null,
+          "visibility": "more_than_forty",
+          "diveSites": "one_to_ten",
+          "currents": "medium",
+          "surfaceConditions": null,
+          "waterTemperature": "twenty_one_to_twenty_five",
+          "experienceLevel": "advanced"
+        },
+        "countryId": 18,
+        "publishedAt": "2018-02-12 14:53:54",
+        "createdAt": "2018-02-12 12:42:07",
+        "updatedAt": "2018-02-12 14:53:54",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/17"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/17/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/17/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "18"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/17/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/17/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "50"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "16",
+      "attributes": {
+        "title": "Southern Atolls",
+        "slug": "southern-atolls",
+        "description": "Liveaboards are the best way to visit the pristine and unexplored atolls of the southern Maldives.\n\nDiving itineraries generally focus on Meemu, Thaa and Laamu atolls where there are plenty of dives sites are still waiting to be discovered. Adventures even further south, where Maldives meets the equator, are increasing in popularity and promise superb diving and conditions throughout the year.\nThe southern Maldives is known for exceptional drift diving, superb visibility, unspoilt corals and some of the best big fish encounters in the Maldives. Expect thrilling channel dives, mantas and eagle rays, napolean wrasse, abundant reef fish and whale sharks.\nMany liveaboards include the deep south at the beginning of the year for the best opportunity of shark encounters, however the diving remains soutstanding throughout the year. Huvadhoo Atoll is gaining reputation as the Maldives' premier shark diving location. Expect grey reef sharks, white-tip, hammerhead and silky sharks as well as other large pelagic species in this remote area.",
+        "zoom": 7,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            73.331909179688,
+            1.3573970822102
+          ]
+        },
+        "continent": "as",
+        "ocean": "in",
+        "sea": "lac",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 7,
+        "publishedAt": "2017-10-13 14:08:07",
+        "createdAt": "2017-09-27 13:03:57",
+        "updatedAt": "2017-10-13 14:08:07",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/16"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/16/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/16/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "7"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/16/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/16/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "46"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "15",
+      "attributes": {
+        "title": "Northern Atolls",
+        "slug": "northern-atolls",
+        "description": "The northern Maldives atolls stretch from Baa Atoll north up to the Haa Alifu Atoll. The region sees less divers than its more southerly neighbours, ensuring diving away from the crowds.\n\nThe Baa Atoll is home to Hanifaru Bay, a UNESCO Biosphere Reserve where exceptional numbers of mantas and whale sharks aggregate annually to feed.\nResort based diving is possible on both the Baa & Noonu atolls, while liveaboards head to the area in the summer months due to the abundance of manta rays and whale sharks. \nBoth resort dive centres and liveaboards visit Hanifaru Bay, where only snorkelling is allowed.",
+        "zoom": 7,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            73.187613487244,
+            5.666551496323
+          ]
+        },
+        "continent": "as",
+        "ocean": "in",
+        "sea": "lac",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 7,
+        "publishedAt": "2017-10-13 13:56:29",
+        "createdAt": "2017-09-27 13:01:24",
+        "updatedAt": "2017-10-13 13:56:29",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/15"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/15/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/15/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "7"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/15/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/15/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "44"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "14",
+      "attributes": {
+        "title": "Central Atolls",
+        "slug": "central-atolls",
+        "description": "The Central region comprises Malé and Ari atolls, Felidhoo, Faafu and the smaller Rasdhoo Atoll. Many resorts have exceptional shore diving opportunities from their house reefs, while drift diving in the current swept channels rewards divers with opportunities to encounter large pelagics.\nNorth Malé Atoll features some of the Maldives most quintessential and enduringly popular dive sites, while Ari Atoll is considered by many to have some of the Maldives most consistent big fish sightings, including manta rays and whale sharks\nThe smaller Rasdhoo Atoll is well known for some of the Maldives’ finest hammerhead shark encounters.",
+        "zoom": 9,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            73.2275390625,
+            4.4196932983111
+          ]
+        },
+        "continent": "as",
+        "ocean": "in",
+        "sea": "lac",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 7,
+        "publishedAt": "2017-10-16 20:45:03",
+        "createdAt": "2017-09-27 12:59:31",
+        "updatedAt": "2017-10-16 20:45:03",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/14"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/14/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/14/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "7"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/14/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/14/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "45"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "13",
+      "attributes": {
+        "title": "Witu Islands",
+        "slug": "witu-islands",
+        "description": "North west of Kimbe Bay the treasures to be seen in these islands are the big fish. With up to 30+ meters visibility keep your eyes peeled for white tip reef sharks, tuna and barracuda patrolling the edge of the reefs. On these outer reef slopes hard coral gardens allow for incredible colours and steep drop offs filled with soft corals suggest idyllic beauty.",
+        "zoom": 8,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            149.27490234375,
+            -4.7495453627097
+          ]
+        },
+        "continent": "oc",
+        "ocean": "pa",
+        "sea": "bis",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 6,
+        "publishedAt": "2017-10-13 13:22:30",
+        "createdAt": "2017-09-27 12:38:49",
+        "updatedAt": "2017-10-13 13:22:30",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/13"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/13/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/13/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "6"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/13/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/13/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "32"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "12",
+      "attributes": {
+        "title": "Fathers Reefs",
+        "slug": "fathers-reefs",
+        "description": "Fathers Reefs is a dive site with the backdrop of the 2,334- meter Ulawun Volcano, this underwater site is a series of coral pinnacles rising from the bottom of the Bismarck Sea. Scuba diving Father's Reefs will no doubt allow you the chance to see sharks with the healthiest population of sharks in Papua New Guinea here. In the past areas of this site have been used as shark-feeding zones bringing sharks regularly to the area.",
+        "zoom": 6,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            151.25244140625,
+            -4.6126743763075
+          ]
+        },
+        "continent": "oc",
+        "ocean": "pa",
+        "sea": "bis",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 6,
+        "publishedAt": "2017-10-13 13:23:12",
+        "createdAt": "2017-09-27 12:36:01",
+        "updatedAt": "2017-10-13 13:23:12",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/12"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/12/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/12/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "6"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/12/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/12/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "33"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "11",
+      "attributes": {
+        "title": "Milne Bay",
+        "slug": "milne-bay",
+        "description": "Milne Bay This bay sits on the East coast on the islands of Papua New Guinea. You can enjoy both macro and large species here. In less than 20 ft of water you can enjoy frogfish, cuttlefish, mandarin fish, nudibranches and even the incredible species of scorpionfish: Rhinopia. Dive trips in Milne Bay include underwater isolated pinnacles, sloping coral reefs and impressive walls encrusted with corals amongst the soft corals. There's so much on offer here that all of these sights can be seen through one dive.",
+        "zoom": 8,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            150.34606933594,
+            -9.8693970277263
+          ]
+        },
+        "continent": "oc",
+        "ocean": "pa",
+        "sea": "sol",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 5,
+        "publishedAt": "2017-10-13 13:23:50",
+        "createdAt": "2017-09-27 12:23:50",
+        "updatedAt": "2017-10-13 13:23:50",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/11"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/11/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/11/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "5"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/11/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/11/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "34"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "10",
+      "attributes": {
+        "title": "Kimbe Bay",
+        "slug": "kimbe-bay",
+        "description": "Kimbe Bay is home to some of the healthiest coral, as well as some of the largest diversion of both coral and fish anywhere on the planet.  Diving in Kimble bay will take you back forty years to a time when corals grew in lush profusion, untroubled by the problems that beset them today. Take your time and dive carefully, and you will be able to better appreciate what is one of the most diverse and healthy ecosystems on the planet. Ranked among the world's most beautiful reefs by National Geographic Society. It is clear that your dive trip here will not fail to impress. Within Kimbe Bay you can see a Japanese Zero fighter plane, incredible large fan corals and barrel sponges. You will often see pelagic sharks and barracuda but it is also a dive trip option for mammals such as pilot whales, dolphins, orcas and sperm whales.",
+        "zoom": 8,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            150.39001464844,
+            -5.1545213325503
+          ]
+        },
+        "continent": "oc",
+        "ocean": "pa",
+        "sea": "bis",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 6,
+        "publishedAt": "2017-10-13 13:42:02",
+        "createdAt": "2017-09-27 11:44:39",
+        "updatedAt": "2017-10-13 13:42:02",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/10"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/10/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/10/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "6"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/10/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/10/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "43"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "9",
+      "attributes": {
+        "title": "Solomon Islands",
+        "slug": "solomon-islands",
+        "description": "Solomon Islands has some of the most pristine dive sites in the world. Unspoiled and undiscovered, our remote location means there are not many divers to put pressure on the reef and fish.\n\nWe have caverns, reefs, large sea fans, soft corals and lots of macro including a huge diversity of nudibranchs, pygmy seahorse, ghost pipefish and more. The reef is covered in a variety of hard corals home to mandarin fish, eels and masses of reef fish. Many of the islands are surrounded by deep walls which allow divers to interact with schools of pelagics. The diversity of the Solomon's is hard to beat.\n\nAfter WWII, the water in between the Florida Islands (Tulagi) and Guadalcanal was renamed to Iron Bottom Sound due to the 200 ships, 690 air crafts and countless landing barges that sunk there during those many months of battle. Wreck diving abounds.",
+        "zoom": 5,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            160.810546875,
+            -9.8856322397751
+          ]
+        },
+        "continent": "oc",
+        "ocean": "pa",
+        "sea": "sol",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 5,
+        "publishedAt": "2017-10-13 13:24:27",
+        "createdAt": "2017-09-27 11:29:04",
+        "updatedAt": "2017-10-13 13:24:27",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/9"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/9/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/9/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "5"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/9/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/9/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "35"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "8",
+      "attributes": {
+        "title": "Flores - Alor",
+        "slug": "flores-alor",
+        "description": "A little visited region, Alor and Flores liveaboard safaris promise some top quality Indonesian diving without the competition for space that can be seen elsewhere. Not many dive boats visit here so you can be more confident of having the sites to yourself. Varied dive sites, superb macro-life, a low human population, and excellent visibility make this a relatively undiscovered gem of a destination. \n\nMost of the liveaboards visit here on a wider trip including Komodo, or Banda or even Raja Ampat. Shore visits are often a key feature of these expeditions. You might experience a visit to a whaling village or a weaving village, as well as a local market, or an excursion to Komba volcano or Kelimutu lakes.",
+        "zoom": 7,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            121.79809570312,
+            -8.3453243305783
+          ]
+        },
+        "continent": "as",
+        "ocean": "pa",
+        "sea": "flo",
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 2,
+        "publishedAt": "2017-10-13 13:25:32",
+        "createdAt": "2017-09-27 11:17:04",
+        "updatedAt": "2017-10-13 13:25:32",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/8"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/8/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/8/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "2"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/8/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/8/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "36"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "destinations",
+      "id": "7",
+      "attributes": {
+        "title": "Wakatobi",
+        "slug": "wakatobi",
+        "description": "The remote Wakatobi archipelago in south Sulawesi is one of the most exciting destinations in Indonesia, pure diving pleasure in a far-flung paradise island setting. These pristine reefs have won extraordinary praise for their abundant fish life and healthy corals. Their national park status also means there are restrictions on fishing which is good news for the marine life. \n\nUnlike at Komodo Island or Raja Ampat, you won't see many other liveaboard boats in the area so you will get the feeling that the coral reefs here are exclusively for you!",
+        "zoom": 5,
+        "point": {
+          "type": "Point",
+          "coordinates": [
+            120.4248046875,
+            -6.2750049808556
+          ]
+        },
+        "continent": "as",
+        "ocean": "pa",
+        "sea": null,
+        "status": "published",
+        "seoTitle": null,
+        "seoDescription": null,
+        "diving": {
+          "season": null,
+          "depth": null,
+          "visibility": null,
+          "diveSites": null,
+          "currents": null,
+          "surfaceConditions": null,
+          "waterTemperature": null,
+          "experienceLevel": null
+        },
+        "countryId": 2,
+        "publishedAt": "2017-10-13 13:26:09",
+        "createdAt": "2017-09-27 11:15:32",
+        "updatedAt": "2017-10-13 13:26:09",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/destinations/7"
+      },
+      "relationships": {
+        "country": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/7/relationships/country",
+            "related": "https://api.scubaclick.com/demo/destinations/7/country"
+          },
+          "data": {
+            "type": "countries",
+            "id": "2"
+          }
+        },
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/destinations/7/relationships/media",
+            "related": "https://api.scubaclick.com/demo/destinations/7/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "37"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "media",
+      "id": "21",
+      "attributes": {
+        "title": "Myanmar",
+        "identifier": "200138-MYANMARJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/130854/myanmar.jpg?s=c34337d8f4ce7552e37b05d381928035",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/130854/myanmar.jpg?p=small&s=a8cb237b07b8affde8cfe69e9b535d69",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/130854/myanmar.jpg?p=medium&s=693a7c4419bcde718820f97a452b2b7b",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/130854/myanmar.jpg?p=large&s=71936ec6556f6202624f9d751beffd6f"
+        },
+        "mime": "image/jpeg",
+        "size": 200138,
+        "createdAt": "2017-10-13 13:08:53",
+        "updatedAt": "2017-10-13 13:08:54"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/21"
+      }
+    },
+    {
+      "type": "media",
+      "id": "27",
+      "attributes": {
+        "title": "Thailand",
+        "identifier": "333306-THAILANDJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/131707/thailand.jpg?s=f8609f6a2cdfa3c2c759ad0c5690219d",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/131707/thailand.jpg?p=small&s=c3fca51d210dd0af72e78c7fa5987495",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/131707/thailand.jpg?p=medium&s=94caa7f0ea55e4b5d789d29f1eb0d774",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/131707/thailand.jpg?p=large&s=cd720390a9301e6a602ca3d280162312"
+        },
+        "mime": "image/jpeg",
+        "size": 333306,
+        "createdAt": "2017-10-13 13:17:06",
+        "updatedAt": "2017-10-13 13:17:08"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/27"
+      }
+    },
+    {
+      "type": "media",
+      "id": "16",
+      "attributes": {
+        "title": "Indonesia",
+        "identifier": "125317-INDONESIAJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/130517/indonesia.jpg?s=028a0770e7b351f6abc9c2af3d20d9b6",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/130517/indonesia.jpg?p=small&s=f819ce77c0a6dee9d0404842a2322a7e",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/130517/indonesia.jpg?p=medium&s=5f8bcd75560470a9f2308ff84a8f05e5",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/130517/indonesia.jpg?p=large&s=a4e88fdb7cbc75455bd530237f7227e4"
+        },
+        "mime": "image/jpeg",
+        "size": 125317,
+        "createdAt": "2017-10-13 13:05:16",
+        "updatedAt": "2017-10-13 13:05:17"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/16"
+      }
+    },
+    {
+      "type": "media",
+      "id": "17",
+      "attributes": {
+        "title": "Malaysia",
+        "identifier": "202255-MALAYSIAJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/130548/malaysia.jpg?s=cc17a772bf91410c58d1d1a5bb7c89ce",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/130548/malaysia.jpg?p=small&s=7b8360fe822369b73ed5f9c5578bd018",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/130548/malaysia.jpg?p=medium&s=a161b021d65ec581f87aa5bc69fbcbce",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/130548/malaysia.jpg?p=large&s=ebb7b458d95b18d8dec5f2263098ea8c"
+        },
+        "mime": "image/jpeg",
+        "size": 202255,
+        "createdAt": "2017-10-13 13:05:47",
+        "updatedAt": "2017-10-13 13:05:48"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/17"
+      }
+    },
+    {
+      "type": "media",
+      "id": "11",
+      "attributes": {
+        "title": "Costa Rica",
+        "identifier": "97482-COSTA-RICAJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/130216/costa-rica.jpg?s=5a652b310e4badb415a5de0284d687aa",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/130216/costa-rica.jpg?p=small&s=debf8bbf23b32887fbb64e90e2676667",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/130216/costa-rica.jpg?p=medium&s=6f6dcce6b036987a4e573d6110e7576f",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/130216/costa-rica.jpg?p=large&s=b2a10ae5f94f4db353f8eb462d0b2ed7"
+        },
+        "mime": "image/jpeg",
+        "size": 97482,
+        "createdAt": "2017-10-13 13:02:15",
+        "updatedAt": "2017-10-13 13:02:16"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/11"
+      }
+    },
+    {
+      "type": "media",
+      "id": "55",
+      "attributes": {
+        "title": "index",
+        "identifier": "9341-INDEXJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114220/index.jpg?s=5db59283a8d324e89f74bed3d176f2be",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114220/index.jpg?p=small&s=b14128af870c9260c3cd526bccaf4a09",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114220/index.jpg?p=medium&s=4bddcebc49f5dd442d4dc5dc70924e12",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114220/index.jpg?p=large&s=e5f28c7e4b6e1323f9009e63db462c0a"
+        },
+        "mime": "image/jpeg",
+        "size": 9341,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:20"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/55"
+      }
+    },
+    {
+      "type": "media",
+      "id": "57",
+      "attributes": {
+        "title": "indexcccc",
+        "identifier": "8446-INDEXCCCCJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114221/indexcccc.jpg?s=4f3688d6d58a6ec94275910713324f9a",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114221/indexcccc.jpg?p=small&s=01d19b7ef972251f3ce3627ef749786b",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114221/indexcccc.jpg?p=medium&s=c6147e398ee30e20926021622ba75244",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114221/indexcccc.jpg?p=large&s=9123d8ac4a5c5204762186da7e6c9d73"
+        },
+        "mime": "image/jpeg",
+        "size": 8446,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:21"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/57"
+      }
+    },
+    {
+      "type": "media",
+      "id": "51",
+      "attributes": {
+        "title": "diver-with-a-school-of-jacks-at-dirty-rock.-edwar-herrea-o",
+        "identifier": "27185-DIVER-WITH-A-SCHOOL-OF-JACKS-AT-DIRTY-ROCK-EDWAR-HERREA-OJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/diver-with-a-school-of-jacks-at-dirty-rock.-edwar-herrea-o.jpg?s=0ac14c00a19e6de4acd70355d190fcd0",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/diver-with-a-school-of-jacks-at-dirty-rock.-edwar-herrea-o.jpg?p=small&s=71e51aa93038c8d2631d32872a087b7b",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/diver-with-a-school-of-jacks-at-dirty-rock.-edwar-herrea-o.jpg?p=medium&s=7f66456aeeeef920e65772bb911584fe",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/diver-with-a-school-of-jacks-at-dirty-rock.-edwar-herrea-o.jpg?p=large&s=b6609bb22c9055f62ef983df62380aa2"
+        },
+        "mime": "image/jpeg",
+        "size": 27185,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:18"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/51"
+      }
+    },
+    {
+      "type": "media",
+      "id": "8",
+      "attributes": {
+        "title": "Australia",
+        "identifier": "153641-AUSTRALIAJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/125939/australia.jpg?s=1d63a07a248d6abe744c6b7961db1960",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/125939/australia.jpg?p=small&s=0f63cd714dc994cc4cd7f1b75fbafd5c",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/125939/australia.jpg?p=medium&s=bd8e1e6d12b432455e8b020c60122b8c",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/125939/australia.jpg?p=large&s=6279000d7f52c5cd01dd0e9eb22f904d"
+        },
+        "mime": "image/jpeg",
+        "size": 153641,
+        "createdAt": "2017-10-13 12:59:39",
+        "updatedAt": "2017-10-13 12:59:40"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/8"
+      }
+    },
+    {
+      "type": "media",
+      "id": "19",
+      "attributes": {
+        "title": "Mexico",
+        "identifier": "209369-MEXICOJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/130713/mexico.jpg?s=3403ddc3839f49ecf44a2e4cae32bb93",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/130713/mexico.jpg?p=small&s=5f8f99e517f87d6d8c939ae0f3e7e513",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/130713/mexico.jpg?p=medium&s=513b349e67e51375b5eb1e07687ed8bf",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/130713/mexico.jpg?p=large&s=d09a933e4e48abd6bb6a126631e1aa3b"
+        },
+        "mime": "image/jpeg",
+        "size": 209369,
+        "createdAt": "2017-10-13 13:07:12",
+        "updatedAt": "2017-10-13 13:07:13"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/19"
+      }
+    },
+    {
+      "type": "media",
+      "id": "18",
+      "attributes": {
+        "title": "Maldives",
+        "identifier": "179543-MALDIVESJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/130630/maldives.jpg?s=4a308b24c45b813b268e1c0e7748bcc0",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/130630/maldives.jpg?p=small&s=e3cc25b265e0813e196cb02d172a02bf",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/130630/maldives.jpg?p=medium&s=8809b0a65924f261c6a2392b712c2987",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/130630/maldives.jpg?p=large&s=155fbc031813a151927ceef0c72fdb0b"
+        },
+        "mime": "image/jpeg",
+        "size": 179543,
+        "createdAt": "2017-10-13 13:06:29",
+        "updatedAt": "2017-10-13 13:06:30"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/18"
+      }
+    },
+    {
+      "type": "media",
+      "id": "22",
+      "attributes": {
+        "title": "Papua New Guinea",
+        "identifier": "126076-PAPUA-NEW-GUINEAJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/130933/papua-new-guinea.jpg?s=b2636825e41ea2a27ca1633c475bc747",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/130933/papua-new-guinea.jpg?p=small&s=ce7fdfd6239276b105b619e521489612",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/130933/papua-new-guinea.jpg?p=medium&s=0eca8428ee2137b7f36d7e53abab9fc1",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/130933/papua-new-guinea.jpg?p=large&s=0b44eccb0b2ee2aeb30b9e1f3206dd16"
+        },
+        "mime": "image/jpeg",
+        "size": 126076,
+        "createdAt": "2017-10-13 13:09:32",
+        "updatedAt": "2017-10-13 13:09:33"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/22"
+      }
+    },
+    {
+      "type": "media",
+      "id": "26",
+      "attributes": {
+        "title": "Solomon Islands",
+        "identifier": "174404-SOLOMON-ISLANDSJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/131232/solomon-islands.jpg?s=93b4b30e7247a513431224a32a9c3141",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/131232/solomon-islands.jpg?p=small&s=021f2293c8100a8bdeeac3b4493a4c1f",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/131232/solomon-islands.jpg?p=medium&s=1896ef62424489053c5c68c546744398",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/131232/solomon-islands.jpg?p=large&s=0be11b30f7c2eca889383c60b310fe0c"
+        },
+        "mime": "image/jpeg",
+        "size": 174404,
+        "createdAt": "2017-10-13 13:12:31",
+        "updatedAt": "2017-10-13 13:12:32"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/26"
+      }
+    },
+    {
+      "type": "countries",
+      "id": "20",
+      "attributes": {
+        "name": "mm",
+        "slug": "myanmar",
+        "description": "If you want the most unique Burma diving experience in the planet, then Myanmar (formerly known as Burma) is the place for you. Its waters were closed off until 1997, which means that they are relatively unexplored and undiscovered by even some of the most seasoned divers. With gorgeous landscapes made of caves, soft and hard coral, incredibly rich wildlife and exclusive dive sites, it is diving like you’ve never done it before. Burma’s Mergui Archipelago offers over 800 islands sprinkled throughout 12,000 square kilometres of crystalline waters just begging to be discovered. Since Burmese waters were opened, only a few boats have begun to appear, yet the islands remain almost entirely uninhabited save for the odd Burmese sea gypsys. Most divers who go to Burma seek the mysterious waters of the Mergui Archipelago. This off-the-beaten-path diving destination is made mostly from limestone (ensuring there are plenty of caves and tunnels) and a few granite pinnacles circled by a wide diversity of corals of beautiful color. Diving Burma gives you the possibility to run into species like manta rays, barracudas, frogfish, crabs of all types, seahorses, and all types of shrimps and different kinds of sharks also populate the area, and often swim along divers. The reefs in the area are also quite impressive, not only because of their sheer beauty, but also because of their size- some reefs can be as large as a small house!",
+        "status": "published",
+        "publishedAt": "2018-02-26 13:45:26",
+        "createdAt": "2017-10-13 13:08:58",
+        "updatedAt": "2018-02-26 13:45:26",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/countries/20"
+      },
+      "relationships": {
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/countries/20/relationships/media",
+            "related": "https://api.scubaclick.com/demo/countries/20/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "21"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "68",
+      "attributes": {
+        "title": "Mergui Archipelago",
+        "identifier": "11082-MERGUIARCHIPELAGOJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/135042/mergui archipelago.jpg?s=ca8e71364d23a82cd7fa409a850664f4",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/135042/mergui archipelago.jpg?p=small&s=5f0d94df9cb7ac52f822f08ca85b1fef",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/135042/mergui archipelago.jpg?p=medium&s=49e4e39df3ae4ca376d2fb207f77007e",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/135042/mergui archipelago.jpg?p=large&s=bf9b54d6a7e9acdf8d56a59a0584200b"
+        },
+        "mime": "image/jpeg",
+        "size": 11082,
+        "createdAt": "2018-02-26 13:50:41",
+        "updatedAt": "2018-02-26 13:50:42"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/68"
+      }
+    },
+    {
+      "type": "countries",
+      "id": "1",
+      "attributes": {
+        "name": "th",
+        "slug": "thailand",
+        "description": "1000 smiles",
+        "status": "published",
+        "publishedAt": "2017-10-13 13:17:12",
+        "createdAt": "2017-08-30 07:46:02",
+        "updatedAt": "2017-10-13 13:17:12",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/countries/1"
+      },
+      "relationships": {
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/countries/1/relationships/media",
+            "related": "https://api.scubaclick.com/demo/countries/1/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "27"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "67",
+      "attributes": {
+        "title": "Andaman sea",
+        "identifier": "7809-ANDAMANSEAJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/133652/andaman sea.jpg?s=ee35516d91802453fde9b47109c08eb7",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/133652/andaman sea.jpg?p=small&s=46879f69ed25bfaa6cf7b60908f55d06",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/133652/andaman sea.jpg?p=medium&s=4f5663bdca557217d921060d83abb2c5",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/133652/andaman sea.jpg?p=large&s=60f8b2a23638f14b04e623938df47c00"
+        },
+        "mime": "image/jpeg",
+        "size": 7809,
+        "createdAt": "2018-02-26 13:36:51",
+        "updatedAt": "2018-02-26 13:36:52"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/67"
+      }
+    },
+    {
+      "type": "media",
+      "id": "64",
+      "attributes": {
+        "title": "Amamba",
+        "identifier": "7918-AMAMBAJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/131612/amamba.jpg?s=3cbf458c77d59d4e7845f6b9411bfc74",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/131612/amamba.jpg?p=small&s=0796e3a1989149c602fe40ba768f4ccb",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/131612/amamba.jpg?p=medium&s=a06ba3a8e85a5f5d2209ca50b187d71e",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/131612/amamba.jpg?p=large&s=32174c0e1eaabf5043dca611ee524cb7"
+        },
+        "mime": "image/jpeg",
+        "size": 7918,
+        "createdAt": "2018-02-26 13:16:11",
+        "updatedAt": "2018-02-26 13:16:12"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/64"
+      }
+    },
+    {
+      "type": "media",
+      "id": "66",
+      "attributes": {
+        "title": "Similan-map",
+        "identifier": "74302-SIMILAN-MAPJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/132232/similan-map.jpg?s=3192fbff0776c8caf6a9defab9e1108d",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/132232/similan-map.jpg?p=small&s=6dd2fc1f31ff0a243408be06c7a80be4",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/132232/similan-map.jpg?p=medium&s=739d697bb78059f3eb5e66bb64cc3be9",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/132232/similan-map.jpg?p=large&s=620cfb54af1a1ef480bec27558949daa"
+        },
+        "mime": "image/jpeg",
+        "size": 74302,
+        "createdAt": "2018-02-26 13:22:30",
+        "updatedAt": "2018-02-26 13:22:32"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/66"
+      }
+    },
+    {
+      "type": "countries",
+      "id": "2",
+      "attributes": {
+        "name": "id",
+        "slug": "indonesia",
+        "description": "Indonesia is an enormous country with the 2nd longest coastline of any country in the world. It spans a huge part of the 'Coral Triangle' - the world's most bio-diverse marine environment. Over 17,500 islands are scattered over this equatorial archipelago making it an incredibly beautiful place to navigate by sea. Indonesia's crystalline waters are a scuba diver's paradise and an ideal wonderland for liveaboards.\n\nThere are over 3,000 species of fish in Indonesia (with new discoveries being made all the time) and some 600 species of coral, vertical walls, deep water trenches, submerged volcanoes, World War II wrecks, and a seemingly endless variety of macro sealife.\n\nThere is huge variety and difference between one Indonesian dive destination and the next. The country boasts dream liveaboard tour destinations such as Komodo National Park and Raja Ampat, and is home to the world-famous macro destination of Lembeh and the whale shark aggregations of Cenderawasih Bay. There are also a wealth of World War II wrecks in various regions, and cruises taking in the historically significant Spice islands that were once exchanged between the British and Dutch for Manhatten island in New York.",
+        "status": "published",
+        "publishedAt": "2017-10-13 13:15:39",
+        "createdAt": "2017-08-30 07:46:02",
+        "updatedAt": "2017-10-13 13:15:39",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/countries/2"
+      },
+      "relationships": {
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/countries/2/relationships/media",
+            "related": "https://api.scubaclick.com/demo/countries/2/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "16"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "65",
+      "attributes": {
+        "title": "anamba island",
+        "identifier": "7966-ANAMBAISLANDJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/131612/anamba island.jpg?s=dd8aec2d687295942b105cfb0a1a206a",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/131612/anamba island.jpg?p=small&s=3bd491c067fb1f7c3b0abef8718e2d7c",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/131612/anamba island.jpg?p=medium&s=450dbdd80a03e025a101c72c7e02c78c",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/131612/anamba island.jpg?p=large&s=9221065fce4dbdf35dac68edd2e18d7c"
+        },
+        "mime": "image/jpeg",
+        "size": 7966,
+        "createdAt": "2018-02-26 13:16:11",
+        "updatedAt": "2018-02-26 13:16:12"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/65"
+      }
+    },
+    {
+      "type": "countries",
+      "id": "3",
+      "attributes": {
+        "name": "my",
+        "slug": "malaysia",
+        "description": "Diving in Malaysia is suitable for all levels of divers as waters are generally calm and reefs are protected. The east coast of Peninsular Malaysia can be dived from March to September while diving in East Malaysia is year-round. Water temperature is warm at 82-86°F (28-30°C).\nIn the east coast of Peninsular Malaysia, islands like Redang, Perhentian, Lang Tengah, Tenggol and Tioman are suitable for new divers but also attracts experienced divers. In East Malaysia, diving is more exciting. You can head to Miri in the state of Sarawak to dive at the Miri-Sibuti Coral Reefs National Park. Better yet, go straight to Sabah to access world-class diving at Sipadan Island, Layang-Layang Island and macro dives at Mabul Island. Layang-Layang Island is an area for deep dives of up to 130ft (40m) so make sure you have the right certifications. As for Sipadan Island, make sure to dive with operators with access to diving permits and book your trip in advance to ensure that you secure a permit as there are only 120 permits available per day.",
+        "status": "published",
+        "publishedAt": "2018-02-26 12:20:05",
+        "createdAt": "2017-08-30 07:46:02",
+        "updatedAt": "2018-02-26 12:20:05",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/countries/3"
+      },
+      "relationships": {
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/countries/3/relationships/media",
+            "related": "https://api.scubaclick.com/demo/countries/3/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "17"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "63",
+      "attributes": {
+        "title": "Tioman Island 2",
+        "identifier": "14605-TIOMANISLAND2JPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/122728/tioman island 2.jpg?s=3698466bbd4224658178cdccbe3d58ff",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/122728/tioman island 2.jpg?p=small&s=4a2c04eb6ef20c69ee91b57611962b47",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/122728/tioman island 2.jpg?p=medium&s=25b76fea04f0399b60bf52f9d2921bcc",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/122728/tioman island 2.jpg?p=large&s=b0d3c9f617f1dd0fd2276971d9ce33e3"
+        },
+        "mime": "image/jpeg",
+        "size": 14605,
+        "createdAt": "2018-02-26 12:27:27",
+        "updatedAt": "2018-02-26 12:27:28"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/63"
+      }
+    },
+    {
+      "type": "media",
+      "id": "62",
+      "attributes": {
+        "title": "Tioman Island",
+        "identifier": "11261-TIOMANISLANDJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/122728/tioman island.jpg?s=12d8dbe31932891c5a952af53a55060c",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/122728/tioman island.jpg?p=small&s=21baac85a32c654001a481d86fb579a5",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/122728/tioman island.jpg?p=medium&s=91de49c1b7ba97206e2772df3e6e806b",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/122728/tioman island.jpg?p=large&s=4a23c460f30494caf99dfa5d8bf8f41a"
+        },
+        "mime": "image/jpeg",
+        "size": 11261,
+        "createdAt": "2018-02-26 12:27:27",
+        "updatedAt": "2018-02-26 12:27:28"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/62"
+      }
+    },
+    {
+      "type": "countries",
+      "id": "11",
+      "attributes": {
+        "name": "cr",
+        "slug": "costa-rica",
+        "description": "Costa Rica literally translates to “Rich Coast,” an apt name for a country surrounded by oceans. On the Pacific side, offshore islands defined by their underwater pinnacles, such as Cocos Island and the Bat and Catalina Islands in Guanacaste, offer up enticing shark and manta ray encounters. These destinations boast heavy currents, making them more suitable for advanced divers. These are the most famous dive sites in Costa Rica and worth the effort to reach. The Pacific coastline is also known for pelagic life. From humpback whales to manta rays, this coast is suitable to all diving levels with some calm areas and some known to have a bit of current. The underwater landscape is made up of boulders and pinnacles, and you’ll enjoy large schools of fish swimming by on almost every dive. Finally, the Caribbean coast, where you’ll find vibrant reefs teeming with marine life, has not yet been fully mapped by divers. The protected nature of the reefs make this region great for beginners. Explore both coasts to get a full appreciation for Costa Rica’s beauty.",
+        "status": "published",
+        "publishedAt": "2018-02-26 12:03:44",
+        "createdAt": "2017-10-13 13:02:21",
+        "updatedAt": "2018-02-26 12:03:44",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/countries/11"
+      },
+      "relationships": {
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/countries/11/relationships/media",
+            "related": "https://api.scubaclick.com/demo/countries/11/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "11"
+            },
+            {
+              "type": "media",
+              "id": "55"
+            },
+            {
+              "type": "media",
+              "id": "57"
+            },
+            {
+              "type": "media",
+              "id": "51"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "53",
+      "attributes": {
+        "title": "galapagos-sharks-at-dirty-rock-shmulik-bloom",
+        "identifier": "19215-GALAPAGOS-SHARKS-AT-DIRTY-ROCK-SHMULIK-BLOOMJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114219/galapagos-sharks-at-dirty-rock-shmulik-bloom.jpg?s=54003948e5dcdcd3e4f2d3ff27fe2c81",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114219/galapagos-sharks-at-dirty-rock-shmulik-bloom.jpg?p=small&s=4920170b5e02da65746b2a711b99594a",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114219/galapagos-sharks-at-dirty-rock-shmulik-bloom.jpg?p=medium&s=406c3e796d1b0c26265c55feb7c103e3",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114219/galapagos-sharks-at-dirty-rock-shmulik-bloom.jpg?p=large&s=08efc7635f4196cf88b26ad0096d7b2a"
+        },
+        "mime": "image/jpeg",
+        "size": 19215,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:19"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/53"
+      }
+    },
+    {
+      "type": "media",
+      "id": "56",
+      "attributes": {
+        "title": "hammerhead-shark-with-open-mouth-shmulik-bloom",
+        "identifier": "18734-HAMMERHEAD-SHARK-WITH-OPEN-MOUTH-SHMULIK-BLOOMJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114219/hammerhead-shark-with-open-mouth-shmulik-bloom.jpg?s=7d1020534a8733d8f82089c6858eba67",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114219/hammerhead-shark-with-open-mouth-shmulik-bloom.jpg?p=small&s=fe5f00c710a0448192ad3604c53d20e3",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114219/hammerhead-shark-with-open-mouth-shmulik-bloom.jpg?p=medium&s=07840958fafa6584772a005b61dbdae5",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114219/hammerhead-shark-with-open-mouth-shmulik-bloom.jpg?p=large&s=cb40d94978239d5ac5df52b926c2249d"
+        },
+        "mime": "image/jpeg",
+        "size": 18734,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:20"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/56"
+      }
+    },
+    {
+      "type": "media",
+      "id": "61",
+      "attributes": {
+        "title": "yellowfin-tuna-avi-klapfer",
+        "identifier": "21135-YELLOWFIN-TUNA-AVI-KLAPFERJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114223/yellowfin-tuna-avi-klapfer.jpg?s=e0db014db7e6c70c6844ee7e95c9e613",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114223/yellowfin-tuna-avi-klapfer.jpg?p=small&s=0e45eee0baac67c2f3baed8b0e4b06ea",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114223/yellowfin-tuna-avi-klapfer.jpg?p=medium&s=d79a2e095b66725f2816d8e5bf1667cf",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114223/yellowfin-tuna-avi-klapfer.jpg?p=large&s=9ff45fafe8cededb1cbc12421a7fc4fc"
+        },
+        "mime": "image/jpeg",
+        "size": 21135,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:23"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/61"
+      }
+    },
+    {
+      "type": "media",
+      "id": "52",
+      "attributes": {
+        "title": "Cocos Island",
+        "identifier": "23730-COCOSISLANDJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/cocos island.jpg?s=dc66d2724eaa5091dd4e35a8714e2fdf",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/cocos island.jpg?p=small&s=a6a278c9e282b6013a7729b0433a9600",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/cocos island.jpg?p=medium&s=4ea53687088ff2742ee8ce02bfe9d0d6",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/cocos island.jpg?p=large&s=d2042b29cd31dad210fb365946a09c01"
+        },
+        "mime": "image/jpeg",
+        "size": 23730,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:18"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/52"
+      }
+    },
+    {
+      "type": "media",
+      "id": "60",
+      "attributes": {
+        "title": "mv_argo--11-w700h466crwidth700crheight466",
+        "identifier": "37998-MV_ARGO--11-W700H466CRWIDTH700CRHEIGHT466JPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114222/mv_argo--11-w700h466crwidth700crheight466.jpg?s=e19e0f9f681b75b9a2e3a0d09d5bb767",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114222/mv_argo--11-w700h466crwidth700crheight466.jpg?p=small&s=3378384d6f5720510e62650080bd5791",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114222/mv_argo--11-w700h466crwidth700crheight466.jpg?p=medium&s=4a8c68314d53d88b521c204ef23c95c9",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114222/mv_argo--11-w700h466crwidth700crheight466.jpg?p=large&s=32e2a4d2a6af23f903fbf7b80c854584"
+        },
+        "mime": "image/jpeg",
+        "size": 37998,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:22"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/60"
+      }
+    },
+    {
+      "type": "media",
+      "id": "59",
+      "attributes": {
+        "title": "mv_argo--8-w700h466crwidth700crheight466",
+        "identifier": "27949-MV_ARGO--8-W700H466CRWIDTH700CRHEIGHT466JPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114221/mv_argo--8-w700h466crwidth700crheight466.jpg?s=c0b15b51bbfaab5bfc8f996bfa127df6",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114221/mv_argo--8-w700h466crwidth700crheight466.jpg?p=small&s=b880ab04d950798d43fc91572e2a8a71",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114221/mv_argo--8-w700h466crwidth700crheight466.jpg?p=medium&s=d2e0111ff13daed2f22ccbed3f47c587",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114221/mv_argo--8-w700h466crwidth700crheight466.jpg?p=large&s=423ad8cb7269ba324fe1420e45034747"
+        },
+        "mime": "image/jpeg",
+        "size": 27949,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:21"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/59"
+      }
+    },
+    {
+      "type": "media",
+      "id": "58",
+      "attributes": {
+        "title": "-shmulik-bloom",
+        "identifier": "30893--SHMULIK-BLOOMJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114223/-shmulik-bloom.jpg?s=45b397033e3864c1b35e0cc3c38637f8",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114223/-shmulik-bloom.jpg?p=small&s=e0768645c0fa0fd57a6199513511248d",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114223/-shmulik-bloom.jpg?p=medium&s=a4537f911467eeea6a38af5d315287a8",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114223/-shmulik-bloom.jpg?p=large&s=35a6958adad2e8d753d417ee1c40735a"
+        },
+        "mime": "image/jpeg",
+        "size": 30893,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:23"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/58"
+      }
+    },
+    {
+      "type": "media",
+      "id": "54",
+      "attributes": {
+        "title": "dirty-rock-shmulik-bloom",
+        "identifier": "23730-DIRTY-ROCK-SHMULIK-BLOOMJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/dirty-rock-shmulik-bloom.jpg?s=0e4a76b0bc57d9588529cc4971946405",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/dirty-rock-shmulik-bloom.jpg?p=small&s=f875fd799feaffb952cd040f41944330",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/dirty-rock-shmulik-bloom.jpg?p=medium&s=a523b6d5aae77dfbb6a8c7c99445ba1f",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180226/114218/dirty-rock-shmulik-bloom.jpg?p=large&s=37c4a80c0caea84b860e840a29c7bd1e"
+        },
+        "mime": "image/jpeg",
+        "size": 23730,
+        "createdAt": "2018-02-26 11:42:17",
+        "updatedAt": "2018-02-26 11:42:18"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/54"
+      }
+    },
+    {
+      "type": "countries",
+      "id": "8",
+      "attributes": {
+        "name": "au",
+        "slug": "australia",
+        "description": "Australia is a diver’s paradise – with cage diving, reefs, remote islands, and rare animals. The best way to experience all Australia has to offer is by liveaboard.",
+        "status": "published",
+        "publishedAt": "2018-02-14 10:56:53",
+        "createdAt": "2017-10-13 13:00:07",
+        "updatedAt": "2018-02-14 10:56:53",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/countries/8"
+      },
+      "relationships": {
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/countries/8/relationships/media",
+            "related": "https://api.scubaclick.com/demo/countries/8/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "8"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "69",
+      "attributes": {
+        "title": "Fly-Dive-Coral-Sea-route",
+        "identifier": "252720-FLY-DIVE-CORAL-SEA-3JPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180314/134152/fly-dive-coral-sea-3.jpg?s=6e317923aae10c949102741081eb04ea",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180314/134152/fly-dive-coral-sea-3.jpg?p=small&s=80626acb12b9d110f1ef868073d01720",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180314/134152/fly-dive-coral-sea-3.jpg?p=medium&s=099bcbd31a02b616484b38193988c27d",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180314/134152/fly-dive-coral-sea-3.jpg?p=large&s=62a80f5cb9aff18ada807a291fcb7b3c"
+        },
+        "mime": "image/jpeg",
+        "size": 252720,
+        "createdAt": "2018-03-14 13:41:51",
+        "updatedAt": "2018-03-14 13:41:52"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/69"
+      }
+    },
+    {
+      "type": "media",
+      "id": "70",
+      "attributes": {
+        "title": "Fly-Dive-Cod-Hole",
+        "identifier": "252944-FLY-DIVE-COD-HOLEJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180314/134256/fly-dive-cod-hole.jpg?s=022e7c71f5f9c4a16971ad417e46f803",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180314/134256/fly-dive-cod-hole.jpg?p=small&s=3b428f2aa3da5fbd2c9d286344d61f05",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180314/134256/fly-dive-cod-hole.jpg?p=medium&s=2b366d11fddba6a85646fcaf8e87587a",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180314/134256/fly-dive-cod-hole.jpg?p=large&s=a2b4ecfa2d0793e2cffe6562477751f6"
+        },
+        "mime": "image/jpeg",
+        "size": 252944,
+        "createdAt": "2018-03-14 13:42:55",
+        "updatedAt": "2018-03-14 13:42:56"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/70"
+      }
+    },
+    {
+      "type": "media",
+      "id": "71",
+      "attributes": {
+        "title": "Coral-Sea-Safari-2",
+        "identifier": "252126-CORAL-SEA-SAFARI-2JPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180314/134405/coral-sea-safari-2.jpg?s=db059592ab44eda3832622c381db09f5",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180314/134405/coral-sea-safari-2.jpg?p=small&s=51280d59b680a4927107c371c9fbb4a1",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180314/134405/coral-sea-safari-2.jpg?p=medium&s=64641f1d49ff491c4e3088a921c28acf",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180314/134405/coral-sea-safari-2.jpg?p=large&s=81f29d3ef43ee89ca77b07eaa4a4d59f"
+        },
+        "mime": "image/jpeg",
+        "size": 252126,
+        "createdAt": "2018-03-14 13:44:04",
+        "updatedAt": "2018-03-14 13:44:05"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/71"
+      }
+    },
+    {
+      "type": "countries",
+      "id": "18",
+      "attributes": {
+        "name": "mx",
+        "slug": "mexico",
+        "description": "Mexico has the protecting arm of Baja Calafornia which provides a haven of shallow waters in the Sea of Cortez for sea-lions, turtles, whales hammerheads and much more on one side and also has the islands of Guadalupe and Socorro on the pacific side. Guadalupe provides the go to destination for Great White sharks. The Socorro islands have been compared to the Galapagos Islands in Ecuador or Cocos Island in Costa Rica because of the big animal encounters they provide. The Revillagigedos Islands consist of 4 islands \\u2013 San Benedicto Island, Socorro Island, Roca Partida and Clarion. They are wild, remote and unpredictable. Giant mantas, humpback whales, playful dolphins, tuna, over 7 shark species plus, on occasion orcas give you the best animal diving on earth!",
+        "status": "published",
+        "publishedAt": "2018-02-12 12:57:54",
+        "createdAt": "2017-10-13 13:07:18",
+        "updatedAt": "2018-02-12 12:57:54",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/countries/18"
+      },
+      "relationships": {
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/countries/18/relationships/media",
+            "related": "https://api.scubaclick.com/demo/countries/18/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "19"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "50",
+      "attributes": {
+        "title": "5",
+        "identifier": "92193-5JPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20180212/145347/5.jpg?s=34ca494a8b4d1878e47a59367a245c24",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20180212/145347/5.jpg?p=small&s=12bfa7ed288da6d50de4d34b5571f932",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20180212/145347/5.jpg?p=medium&s=d30083f152b0d9c4ac0590ebec195c63",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20180212/145347/5.jpg?p=large&s=ff8d511113c615692d7a7484e2fe4d78"
+        },
+        "mime": "image/jpeg",
+        "size": 92193,
+        "createdAt": "2018-02-12 14:53:46",
+        "updatedAt": "2018-02-12 14:53:47"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/50"
+      }
+    },
+    {
+      "type": "countries",
+      "id": "7",
+      "attributes": {
+        "name": "mv",
+        "slug": "maldives",
+        "description": "We can all picture the topside images of the Maldives with sun-drenched white sand beaches, gently lapped by the clear turquoise waters of the Indian Ocean. For scuba divers however, there is another equally alluring world waiting to be discovered beneath the waters' surface. The Maldive Islands have some good coral reefs, but it's the abundance of marine life throughout the country that sets it apart from other dive destinations.\n\nLiveaboard diving cruises in the Maldives mean discovering dense populations of fish, exploring caves and caverns festooned with colour, investigating wrecks teeming with marine life. And the islands are famed for encounters with large marine species such as whale sharks, manta rays and hammerhead sharks.\n\nAlthough the Maldives is a very popular destination for honeymooners, the diving is not ideally suited to absolute beginners since many of its world class sites tend to be drift dives. However, those with a few dives under their belt, a reasonable amount of buoyancy control, and a level of comfort with current, can enjoy some of the most breathtaking sites imaginable.",
+        "status": "published",
+        "publishedAt": "2017-10-13 13:06:35",
+        "createdAt": "2017-09-27 12:40:30",
+        "updatedAt": "2017-10-13 13:06:35",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/countries/7"
+      },
+      "relationships": {
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/countries/7/relationships/media",
+            "related": "https://api.scubaclick.com/demo/countries/7/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "18"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "46",
+      "attributes": {
+        "title": "maldives-southern-atolls",
+        "identifier": "140788-MALDIVES-SOUTHERN-ATOLLSJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/140757/maldives-southern-atolls.jpg?s=decf338591a947681e5a8485691fc926",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/140757/maldives-southern-atolls.jpg?p=small&s=d403e3f3ad2e02023c195b1c22101abd",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/140757/maldives-southern-atolls.jpg?p=medium&s=ef444be33f0c8ac2a590e832125beb5e",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/140757/maldives-southern-atolls.jpg?p=large&s=7dfec2e318d053b8dc00cd19a318dbdd"
+        },
+        "mime": "image/jpeg",
+        "size": 140788,
+        "createdAt": "2017-10-13 14:07:56",
+        "updatedAt": "2017-10-13 14:07:57"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/46"
+      }
+    },
+    {
+      "type": "media",
+      "id": "44",
+      "attributes": {
+        "title": "Maldives - Northern Atolls",
+        "identifier": "140017-MALDIVES-NORTHERN-ATOLLSJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/135542/maldives-northern-atolls.jpg?s=82f4b6827f3ddd398a5570c9c62b6427",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/135542/maldives-northern-atolls.jpg?p=small&s=8258517b7a6a3c48715f6561e7ca8534",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/135542/maldives-northern-atolls.jpg?p=medium&s=4e78a1f8e6d55eb00ee6904e8ab55639",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/135542/maldives-northern-atolls.jpg?p=large&s=2c7e62dee49ee65b73d7ef7b740155ca"
+        },
+        "mime": "image/jpeg",
+        "size": 140017,
+        "createdAt": "2017-10-13 13:55:42",
+        "updatedAt": "2017-10-13 13:55:43"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/44"
+      }
+    },
+    {
+      "type": "media",
+      "id": "45",
+      "attributes": {
+        "title": "Central Maldives",
+        "identifier": "275720-CENTRAL-MALDIVESJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/140504/central-maldives.jpg?s=ef3b99f79c43d70a4ecb04dc537fdc37",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/140504/central-maldives.jpg?p=small&s=32c896aac410178cf24a6fd67671f779",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/140504/central-maldives.jpg?p=medium&s=9abc9bf6fb188843aa533a074d395a92",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/140504/central-maldives.jpg?p=large&s=3d0c5dbadd98055563e24f3fd9d83e41"
+        },
+        "mime": "image/jpeg",
+        "size": 275720,
+        "createdAt": "2017-10-13 14:05:03",
+        "updatedAt": "2017-10-13 14:05:04"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/45"
+      }
+    },
+    {
+      "type": "countries",
+      "id": "6",
+      "attributes": {
+        "name": "pg",
+        "slug": "papua-new-guinea",
+        "description": "Papua New Guinea diving takes place mostly in the Bismarck Sea area or the aptly named Coral Sea. Enjoy dive spots offering WWII wreck dives, extremely beautiful corals along walls, macro life and the big fish all in one place. Get your camera out as underwater photography is an opportunity not to be missed when in Papua New Guinea scuba diving. The islands of Papua New Guinea have an incredible tribal history that is easy to gain a sight into when staying there. With human settlements being here for up to 35000 years this country is still linked with its heritage despite many battles of colonisation and it being a WWII area of war. The tribal lifestyle of locals continues with fascinating body paint, headresses and tribal communities living here. There are still areas of Papua New Guinea that have no inhabitants due to its rugged landscape and terrain. An incredible set of islands waiting to be explored both above and below sea level.",
+        "status": "published",
+        "publishedAt": "2017-10-13 13:09:41",
+        "createdAt": "2017-09-27 11:40:13",
+        "updatedAt": "2017-10-13 13:09:41",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/countries/6"
+      },
+      "relationships": {
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/countries/6/relationships/media",
+            "related": "https://api.scubaclick.com/demo/countries/6/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "22"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "32",
+      "attributes": {
+        "title": "Witu Islands",
+        "identifier": "126805-WITU-ISLANDSJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/132225/witu-islands.jpg?s=b6a7b367ce3b92aad0ca71784856b919",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/132225/witu-islands.jpg?p=small&s=06a1c5e0d37ed5c1e65de621e5dd9bd2",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/132225/witu-islands.jpg?p=medium&s=27d8ecd62d9fe726a2247c9ee8e9dd11",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/132225/witu-islands.jpg?p=large&s=09c49bba682d5d0eb50e37e72868425a"
+        },
+        "mime": "image/jpeg",
+        "size": 126805,
+        "createdAt": "2017-10-13 13:22:24",
+        "updatedAt": "2017-10-13 13:22:25"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/32"
+      }
+    },
+    {
+      "type": "media",
+      "id": "33",
+      "attributes": {
+        "title": "Fathers Reefs",
+        "identifier": "337187-FATHERS-REEFSJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/132308/fathers-reefs.jpg?s=8d65050f228d21744bed8374c5242acd",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/132308/fathers-reefs.jpg?p=small&s=659adbd54cf0bee5c11951d0ba84c61f",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/132308/fathers-reefs.jpg?p=medium&s=8dab7a030bd3eb9452f8a3b27114942a",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/132308/fathers-reefs.jpg?p=large&s=c4c0926843e7e7927b7e91e7c8055441"
+        },
+        "mime": "image/jpeg",
+        "size": 337187,
+        "createdAt": "2017-10-13 13:23:06",
+        "updatedAt": "2017-10-13 13:23:08"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/33"
+      }
+    },
+    {
+      "type": "countries",
+      "id": "5",
+      "attributes": {
+        "name": "sb",
+        "slug": "solomon-islands",
+        "description": "Solomon Islands has some of the most pristine dive sites in the world. Unspoiled and undiscovered, our remote location means there are not many divers to put pressure on the reef and fish.\n\nWe have caverns, reefs, large sea fans, soft corals and lots of macro including a huge diversity of nudibranchs, pygmy seahorse, ghost pipefish and more. The reef is covered in a variety of hard corals home to mandarin fish, eels and masses of reef fish. Many of the islands are surrounded by deep walls which allow divers to interact with schools of pelagics. The diversity of the Solomon's is hard to beat.\n\nAfter WWII, the water in between the Florida Islands (Tulagi) and Guadalcanal was renamed to Iron Bottom Sound due to the 200 ships, 690 aircraft and countless landing barges that sunk there during those many months of battle. Wreck diving abounds.",
+        "status": "published",
+        "publishedAt": "2017-10-13 13:12:38",
+        "createdAt": "2017-09-27 11:27:49",
+        "updatedAt": "2017-10-13 13:12:38",
+        "deletedAt": null
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/countries/5"
+      },
+      "relationships": {
+        "media": {
+          "links": {
+            "self": "https://api.scubaclick.com/demo/countries/5/relationships/media",
+            "related": "https://api.scubaclick.com/demo/countries/5/media"
+          },
+          "data": [
+            {
+              "type": "media",
+              "id": "26"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "media",
+      "id": "34",
+      "attributes": {
+        "title": "Milne Bay",
+        "identifier": "173802-MILNE-BAYJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/132345/milne-bay.jpg?s=3346dd0eba5112a58b5d0fca52b78772",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/132345/milne-bay.jpg?p=small&s=278f45f385b988ab51193ee3686ddba1",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/132345/milne-bay.jpg?p=medium&s=0b68765c92264b3b1bb9eba494b4af42",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/132345/milne-bay.jpg?p=large&s=c47312969571df68febb02d35e4e6230"
+        },
+        "mime": "image/jpeg",
+        "size": 173802,
+        "createdAt": "2017-10-13 13:23:44",
+        "updatedAt": "2017-10-13 13:23:46"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/34"
+      }
+    },
+    {
+      "type": "media",
+      "id": "43",
+      "attributes": {
+        "title": "Kimbe Bay",
+        "identifier": "166347-KIMBE-BAYJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/134157/kimbe-bay.jpg?s=5089d368f1fbce460365cf6a7ca5f663",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/134157/kimbe-bay.jpg?p=small&s=6a426bac3fe14a608502f3186a4ca12c",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/134157/kimbe-bay.jpg?p=medium&s=15bde8f83edf91ca152a3573f50f3bd1",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/134157/kimbe-bay.jpg?p=large&s=54ba4748358631c0628b6f0dc3c74b42"
+        },
+        "mime": "image/jpeg",
+        "size": 166347,
+        "createdAt": "2017-10-13 13:41:56",
+        "updatedAt": "2017-10-13 13:41:57"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/43"
+      }
+    },
+    {
+      "type": "media",
+      "id": "35",
+      "attributes": {
+        "title": "Solomon Islands",
+        "identifier": "129037-SOLOMON-ISLANDSJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/132422/solomon-islands.jpg?s=abe93b19d7941390fbd05e7d351cdd55",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/132422/solomon-islands.jpg?p=small&s=632cecb594379a8e81e8f13c1e83e18a",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/132422/solomon-islands.jpg?p=medium&s=2a14e7c009b5243ef90c3da5b4ce4911",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/132422/solomon-islands.jpg?p=large&s=8a2e8e6bd2466b479dfa750e42cb49bd"
+        },
+        "mime": "image/jpeg",
+        "size": 129037,
+        "createdAt": "2017-10-13 13:24:20",
+        "updatedAt": "2017-10-13 13:24:22"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/35"
+      }
+    },
+    {
+      "type": "media",
+      "id": "36",
+      "attributes": {
+        "title": "Flores - Alor",
+        "identifier": "112274-FLORESJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/132525/flores.jpg?s=11d738465bd10d160951445d21acb369",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/132525/flores.jpg?p=small&s=f993a5b29556bb1fc63d0cf3c297d051",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/132525/flores.jpg?p=medium&s=de924a91991cb74c581df2ea28c8e6ce",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/132525/flores.jpg?p=large&s=8b2b8c1816e8d8ee5cd1f3588339e71e"
+        },
+        "mime": "image/jpeg",
+        "size": 112274,
+        "createdAt": "2017-10-13 13:25:24",
+        "updatedAt": "2017-10-13 13:25:25"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/36"
+      }
+    },
+    {
+      "type": "media",
+      "id": "37",
+      "attributes": {
+        "title": "Wakatobi",
+        "identifier": "134261-WAKATOBIJPG",
+        "files": {
+          "original": "https://api.scubaclick.com/demo/gallery/main/20171013/132605/wakatobi.jpg?s=700f38fbb12c5165f84cee566984d359",
+          "small": "https://api.scubaclick.com/demo/gallery/main/20171013/132605/wakatobi.jpg?p=small&s=e6b4f517edd2b6200d9dd6fa5bc0bf06",
+          "medium": "https://api.scubaclick.com/demo/gallery/main/20171013/132605/wakatobi.jpg?p=medium&s=147c842b6141892d6f21ff66732021f1",
+          "large": "https://api.scubaclick.com/demo/gallery/main/20171013/132605/wakatobi.jpg?p=large&s=e02fbd232fdf8ff27e96b56f4cb178dd"
+        },
+        "mime": "image/jpeg",
+        "size": 134261,
+        "createdAt": "2017-10-13 13:26:04",
+        "updatedAt": "2017-10-13 13:26:05"
+      },
+      "links": {
+        "self": "https://api.scubaclick.com/demo/media/37"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 25,
+      "count": 20,
+      "per_page": 20,
+      "current_page": 1,
+      "total_pages": 2
+    }
+  },
+  "links": {
+    "self": "https://api.scubaclick.com/demo/base-destinations?page=1",
+    "first": "https://api.scubaclick.com/demo/base-destinations?page=1",
+    "next": "https://api.scubaclick.com/demo/base-destinations?page=2",
+    "last": "https://api.scubaclick.com/demo/base-destinations?page=2"
+  }
+},
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
