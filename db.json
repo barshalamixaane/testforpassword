@@ -1,4 +1,17 @@
 {
+  "authentication":{
+    "forgot_password":[
+      {
+        "id":"1",
+        "username":"eve.holt@reqres.in"
+      },
+      {
+        "id":"2",
+        "username":"barshalamichhane.bl@gmail.com"
+      }
+    ]
+  },
+
   "base-destinations": {
     "data": [
       {
